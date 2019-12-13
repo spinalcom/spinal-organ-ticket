@@ -2,13 +2,7 @@ const SPINALHUB_IP = process.env.SPINALHUB_IP || 'localhost';
 const SPINALHUB_PORT = process.env.SPINALHUB_PORT || '7777';
 const SPINAL_USER_ID = process.env.SPINAL_USER_ID || '168';
 const SPINAL_PASSWORD = process.env.SPINAL_PASSWORD || 'JHGgcz45JKilmzknzelf65ddDadggftIO98P';
-
-// const ALTEVA_API_LOGIN = process.env.ALTEVA_API_LOGIN || 'SEML_RDL_SPINALCOM';
-// const ALTEVA_API_PASSWORD = process.env.ALTEVA_API_PASSWORD || 'wKX64gmZ11';
-// const ALTEVA_API_LOGIN = process.env.ALTEVA_API_LOGIN || 'Test_SMA';
-// const ALTEVA_API_PASSWORD = process.env.ALTEVA_API_PASSWORD || 'SMA_bas';
 const DIGITAL_TWIN_PATH = process.env.DIGITAL_TWIN_PATH || '/__users__/admin/Digital twin_TEST';
-
 const ALTEVA_DEFAULT_APELANT = process.env.ALTEVA_DEFAULT_APELANT || 'SPINALCOMTEST';
 
 // used to filter the gmao
@@ -17,8 +11,6 @@ const BUILDING_NAME = process.env.BUILDING_NAME || 'SEML/PHOTONIQUE/GIENAH';
 const config = {
   organ: {
     DEFAULT_APELANT: ALTEVA_DEFAULT_APELANT,
-    // APILogin: ALTEVA_API_LOGIN,
-    // APIPassword: ALTEVA_API_PASSWORD,
     DigitalTwinPath: DIGITAL_TWIN_PATH,
   },
   spinalConnect: {
