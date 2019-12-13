@@ -1,0 +1,36 @@
+{
+  "name": "alteva-mission-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.ts.d",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w & nodemon build/index.js",
+    "debug": "node index.js",
+    "localInstall": "git submodule init && npm i"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-concurrency": "^1.0.1",
+    "moment": "^2.24.0",
+    "spinal-core-connectorjs_type": "git+https://github.com/spinalcom/spinal-core-connectorjs_type.git",
+    "spinal-env-viewer-graph-service": "git+https://github.com/spinalcom/Spinal-Graph-Service.git",
+    "spinal-env-viewer-plugin-documentation-service": "git+https://github.com/spinalcom/spinal-env-viewer-plugin-documentation-service.git",
+    "spinal-service-ticket": "file:spinal-service-ticket"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.12",
+    "doctoc": "^1.4.0",
+    "jsdoc-babel": "^0.5.0",
+    "jsdoc-to-markdown": "^4.0.1",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

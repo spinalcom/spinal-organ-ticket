@@ -1,0 +1,3 @@
+[submodule "spinal-service-ticket"]
+	path = spinal-service-ticket
+	url = git@github.com:spinalcom/spinal-service-ticket.git
